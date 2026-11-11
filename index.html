@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="For cafés, shops and crèches: staff clock in, take breaks and clock out on a tablet or phone, and the hours report for payroll is ready.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Clock In</a></div>
-  <nav class="top"><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Clock In</a>
+  <nav><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Your staff clock in and out on a tablet — and the hours for payroll add up themselves</h1>
-    <p class="sub">For small teams of up to about ten staff in cafés, shops and crèches: everyone clocks in, starts and ends their breaks and clocks out on a tablet at work or on their own phone, corrections are recorded with a reason, and the weekly hours report is ready for payroll.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">I need this</a>
-    <p class="cta-note">Service in preparation · No payment is accepted on this page</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> For small teams in cafés, shops and crèches</p>
+      <h1 class="rise" style="--i:1" data-len="long">Your staff clock in and out on a tablet&nbsp;<span class="soft">— and the hours for payroll add up themselves</span></h1>
+      <p class="rise" style="--i:2">For small teams of up to about ten staff in cafés, shops and crèches: everyone clocks in, starts and ends their breaks and clocks out on a tablet at work or on their own phone, corrections are recorded with a reason, and the weekly hours report is ready for payroll.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">I need this</a>
+      <p class="meta rise" style="--i:4">Service in preparation · No payment is accepted on this page</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="130" y="160" font-size="40" fill="#0a1524" font-weight="600">Clock in</text><line x1="130" y1="210" x2="1070" y2="210" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><text x="200" y="294" font-size="32" fill="#0a1524" font-weight="600">Hours report</text><rect x="130" y="350" width="44" height="44" fill="#ffffff" rx="8" stroke="#12397a" stroke-width="3" /><rect x="200" y="360" width="280" height="24" fill="#dde2ea" rx="12" /><rect x="130" y="440" width="44" height="44" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="200" y="450" width="220" height="24" fill="#b9c3d2" rx="12" /><rect x="130" y="530" width="44" height="44" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="200" y="540" width="340" height="24" fill="#dde2ea" rx="12" /><rect x="680" y="250" width="390" height="420" fill="#dfe8f7" rx="20" /><text x="720" y="320" font-size="34" fill="#0a1524" font-weight="600">Payroll</text><rect x="730" y="460" width="46" height="160" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="808" y="400" width="46" height="220" fill="#12397a" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="886" y="500" width="46" height="120" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="964" y="440" width="46" height="180" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /></svg></figure>
+    <dl class="facts">
+      <div><dt>For</dt><dd>Small teams</dd></div>
+      <div><dt>Hours</dt><dd>Weekly hours report</dd></div>
+      <div><dt>Tablet</dt><dd>On a tablet</dd></div>
+      <div><dt>Works</dt><dd>In the browser</dd></div>
+    </dl>
+  </section>
 
   <section id="what" data-view="features_view">
-    <h2>What you get</h2>
-    <div class="grid">
-      <div class="card"><b>Clock in and out</b><span>Start, breaks and finish with one tap on a tablet or phone.</span><br><a class="btn" href="price.html" data-ev="feature_clock">I need this</a></div>
-      <div class="card"><b>Breaks recorded</b><span>Each break with its start and end, alongside the shift.</span><br><a class="btn" href="price.html" data-ev="feature_breaks">I need this</a></div>
-      <div class="card"><b>Hours report</b><span>Hours per person per week, ready for payroll.</span><br><a class="btn" href="price.html" data-ev="feature_report">I need this</a></div>
-      <div class="card"><b>Records kept</b><span>Working time records kept with every correction and its reason.</span><br><a class="btn" href="price.html" data-ev="feature_records">I need this</a></div>
+    <div class="stack"><h2>What you get</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" fill="#0a1524" font-weight="600">Clock in</text><rect x="280" y="190" width="200" height="300" fill="#ffffff" rx="30" stroke="#12397a" stroke-width="4" /><rect x="304" y="230" width="152" height="190" fill="#dfe8f7" rx="12" /><circle cx="380.0" cy="450" r="16" fill="#12397a" /></svg></div>
+        <h3>Clock in and out</h3><p>Start, breaks and finish with one tap on a tablet or phone.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_clock">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" fill="#0a1524" font-weight="600">start and end</text><rect x="140" y="230" width="220" height="220" fill="#ffffff" rx="18" stroke="#dde2ea" stroke-width="3" /><rect x="420" y="230" width="220" height="220" fill="#dfe8f7" rx="18" stroke="#dde2ea" stroke-width="3" /><line x1="360" y1="340" x2="420" y2="340" stroke="#12397a" stroke-width="4" /><circle cx="250" cy="320" r="28" fill="#12397a" /><circle cx="530" cy="360" r="28" fill="#ffffff" stroke="#12397a" stroke-width="4" /></svg></div>
+        <h3>Breaks recorded</h3><p>Each break with its start and end, alongside the shift.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_breaks">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" fill="#0a1524" font-weight="600">per week</text><rect x="160" y="360" width="56" height="120" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="250" y="280" width="56" height="200" fill="#12397a" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="340" y="320" width="56" height="160" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="430" y="390" width="56" height="90" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="520" y="330" width="56" height="150" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><line x1="140" y1="480" x2="640" y2="480" stroke="#dde2ea" stroke-width="3" /></svg></div>
+        <h3>Hours report</h3><p>Hours per person per week, ready for payroll.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_report">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" fill="#0a1524" font-weight="600">Records kept</text><rect x="150" y="210" width="44" height="44" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="218" y="220" width="200" height="22" fill="#dde2ea" rx="10" /><polyline points="160,234 168,244 184,222" fill="none" stroke="#12397a" stroke-width="4" /><rect x="150" y="282" width="44" height="44" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="218" y="292" width="250" height="22" fill="#b9c3d2" rx="10" /><rect x="150" y="354" width="44" height="44" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="218" y="364" width="300" height="22" fill="#dde2ea" rx="10" /><polyline points="160,378 168,388 184,366" fill="none" stroke="#12397a" stroke-width="4" /></svg></div>
+        <h3>Records kept</h3><p>Working time records kept with every correction and its reason.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_records">I need this</a>
+      </article>
     </div>
   </section>
 
-  <section id="example" data-view="example_view">
-    <h2>Example (fictional data)</h2>
-    <p class="fine">Café with eight staff on rotating shifts. Each person clocks in on the tablet by the till, taps out for their break and back in, and clocks out at closing. On Sunday evening the owner sees the week's hours per person, two late clock-ins and one forgotten clock-out corrected by the manager with a note.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+  <section id="example" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Example</h2>
+      <p>Café with eight staff on rotating shifts. Each person clocks in on the tablet by the till, taps out for their break and back in, and clocks out at closing. On Sunday evening the owner sees the week's hours per person, two late clock-ins and one forgotten clock-out corrected by the manager with a note.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="150" x2="960" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="20" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">tablet</text><circle cx="600" cy="150" r="20" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">Sunday</text><circle cx="960" cy="150" r="20" fill="#12397a" /><text x="960" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">hours</text><rect x="120" y="320" width="960" height="400" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="400" font-size="36" fill="#0a1524" font-weight="600">eight staff</text><rect x="170" y="460" width="64" height="64" fill="#12397a" rx="12" /><rect x="254" y="460" width="64" height="64" fill="#dfe8f7" rx="12" stroke="#dde2ea" stroke-width="2" /><rect x="338" y="460" width="64" height="64" fill="#ffffff" rx="12" stroke="#dde2ea" stroke-width="2" /><rect x="422" y="460" width="64" height="64" fill="#dfe8f7" rx="12" stroke="#dde2ea" stroke-width="2" /><text x="170" y="640" font-size="32" fill="#566174">closing</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>How it works</h2>
-    <p>Employers in Ireland have to keep records of the hours their employees work, including their breaks, under the Organisation of Working Time Act 1997, and keep those records for three years. In a small café, shop or crèche, those records are often a paper sheet, a notebook or a rota that shows planned hours rather than actual ones.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>How it works</h2></div>
+    <div class="stack">
+      <p>Employers in Ireland have to keep records of the hours their employees work, including their breaks, under the Organisation of Working Time Act 1997, and keep those records for three years. In a small café, shop or crèche, those records are often a paper sheet, a notebook or a rota that shows planned hours rather than actual ones.</p>
     <p>At the end of the week someone has to add up the hours for payroll, work out who stayed late and check who took their break. When a sheet is missing or a time is unreadable, the owner asks around — and the payroll waits.</p>
     <p>The service makes the record simple. Each person clocks in when they start, taps when their break begins and ends, and clocks out when they finish — on a tablet at work or on their own phone. The time is recorded at once, and the owner can see who is working right now.</p>
     <p>Breaks are recorded with their start and end, next to the shift, so you can see that each person had their break. If the rota is entered, the service shows who came in early, who stayed late and where the actual hours differ from the plan.</p>
@@ -114,31 +148,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>For businesses with more than one location, each location has its own tablet and the owner sees both on one screen. Staff who work at both clock in where they are, and the report adds everything up.</p>
     <p>Getting started takes half an hour: your business, your staff and, if you like, your rota. The next morning your team can clock in. It works in the browser and on any phone or tablet, nothing to install.</p>
     <p>The service is built for small teams in Ireland: cafés, shops, crèches, salons and small offices. It is in preparation: we are checking whether businesses need it before it is built. The employer remains responsible for working time records and for meeting employment law.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Questions</h2>
-    <h3>Do I have to keep records of working hours?</h3>
-    <p>Yes, employers in Ireland keep records of hours worked and breaks under the Organisation of Working Time Act 1997, for three years.</p>
-    <h3>How do staff clock in?</h3>
-    <p>With one tap on a tablet at work or on their own phone, for start, breaks and finish.</p>
-    <h3>What if someone forgets to clock out?</h3>
-    <p>A manager adds the time with a reason; every correction is kept with the date and the person who made it.</p>
-    <h3>Do I need to install anything?</h3>
-    <p>No, it works in the browser on any phone or tablet.</p>
-    <h3>Can I use it already?</h3>
-    <p>Not yet. The service is in preparation, and we are checking whether businesses need it.</p>
+    <div class="stack"><h2>Questions</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Do I have to keep records of working hours?</h3><p>Yes, employers in Ireland keep records of hours worked and breaks under the Organisation of Working Time Act 1997, for three years.</p></div>
+      <div class="split flip"><h3>How do staff clock in?</h3><p>With one tap on a tablet at work or on their own phone, for start, breaks and finish.</p></div>
+      <div class="split flip"><h3>What if someone forgets to clock out?</h3><p>A manager adds the time with a reason; every correction is kept with the date and the person who made it.</p></div>
+      <div class="split flip"><h3>Do I need to install anything?</h3><p>No, it works in the browser on any phone or tablet.</p></div>
+      <div class="split flip"><h3>Can I use it already?</h3><p>Not yet. The service is in preparation, and we are checking whether businesses need it.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Add your business</h2>
-    <p><label>Number of staff<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— please choose —</option><option>1–3</option><option>4–10</option><option>11–20</option><option>More than 20</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Start</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Add your business</h2>
+    </div>
+    <div class="tile stack">
+      <label>Number of staff<select data-ev-focus="form_start"><option value="">— please choose —</option><option>1–3</option><option>4–10</option><option>11–20</option><option>More than 20</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Start</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Clock In</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">Working time records for your business. The employer remains responsible for working time records and employment law.</p>
+  <p>Working time records for your business. The employer remains responsible for working time records and employment law.</p>
 </div></footer>
 
 </body>
